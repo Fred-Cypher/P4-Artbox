@@ -1,6 +1,6 @@
 <?php require 'header.php'; ?>
 
-<form action="" method="POST">
+<form action="traitement.php" method="POST">
     <div class="champ-formulaire">
         <label for="title">Titre de l'œuvre</label>
         <input type="text" name="title" id="title">

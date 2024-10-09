@@ -1,6 +1,9 @@
 <?php
+    require_once 'bddcnx.php';
     require 'header.php';
-    require 'oeuvres.php';
+
+    $oeuvres = $cnx->query('SELECT * FROM oeuvres');
+
 ?>
 <div id="liste-oeuvres">
     <?php foreach($oeuvres as $oeuvre): ?>
