@@ -27,7 +27,7 @@
         <h1><?= $oeuvre['title'] ?></h1>
         <p class="description"><?= $oeuvre['artist'] ?></p>
         <p class="description-complete">
-             <?= $oeuvre['description'] ?>
+            <?= $oeuvre['description'] ?>
         </p>
     </div>
 </article>
